@@ -15,6 +15,7 @@ System.setProperty("webdriver.chrome.driver", "D:\\Sai\\chromedriver.exe");
 		driver.get("http://demowebshop.tricentis.com/");
 		driver.manage().window().maximize();
 		driver.close();
+		driver.quit();
 
 	}
 
